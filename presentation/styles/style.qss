@@ -5,7 +5,7 @@ QWidget {
     background-color: #F4F6F9; /* Gris muy suave para no cansar la vista */
     color: #2C3E50;            /* Texto oscuro azulado, más elegante que el negro puro */
     font-family: "Segoe UI", Arial, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* =========================================

@@ -16,7 +16,7 @@ def automatizar_qt():
         input_path = os.path.join(ORIGEN_UI, archivo)
         output_path = os.path.join(DESTINO_PY, f"ui_{nombre}.py")
         
-        print(f"🛠️  Generando adaptador de UI: {archivo}...")
+        print(f"Generando adaptador de UI: {archivo}...")
         subprocess.run(['pyside6-uic', input_path, '-o', output_path], check=True)
 
 if __name__ == "__main__":
