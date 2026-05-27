@@ -20,3 +20,5 @@ window = LoginWindow()
 window.show()
 
 sys.exit(app.exec())
+
+#EJECUTAR AQUI
