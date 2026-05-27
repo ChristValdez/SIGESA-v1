@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btn_refrescar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>81</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>781</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="btn_nuevo">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>460</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nuevo</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="table_usuarios">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>771</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DNI</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Apellidos</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nombres</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Correo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Rol</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

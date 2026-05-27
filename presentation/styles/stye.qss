@@ -1,0 +1,202 @@
+/* =========================
+   GENERAL
+========================= */
+
+QWidget {
+    background-color: #ffffff;
+    color: #1F2937;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+QPushButton {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #3B82F6;
+}
+
+QPushButton:pressed {
+    background-color: #1D4ED8;
+}
+
+
+/* =========================
+   INPUTS
+========================= */
+
+QLineEdit,
+QComboBox {
+    background-color: white;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QLineEdit:focus,
+QComboBox:focus {
+    border: 2px solid #2563EB;
+}
+
+
+/* =========================
+   TABLAS
+========================= */
+
+QTableWidget {
+    background-color: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    gridline-color: #E2E8F0;
+    selection-background-color: #DBEAFE;
+}
+
+QHeaderView::section {
+    background-color: #1E293B;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+
+/* =========================
+   LABELS
+========================= */
+
+QLabel {
+    background: transparent;
+}
+
+
+/* =========================
+   MENSAJES ERROR
+========================= */
+
+QLabel#lbl_error {
+    color: #DC2626;
+    font-weight: bold;
+}
+
+/* =========================
+   TABLAS
+========================= */
+
+QTableWidget {
+    background-color: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    gridline-color: #F1F5F9;
+    selection-background-color: #DBEAFE;
+    alternate-background-color: #F8FAFC;
+    padding: 5px;
+}
+
+QTableWidget::item {
+    padding: 10px;
+}
+
+QTableWidget::item:selected {
+    color: #1E293B;
+    font-weight: bold;
+}
+
+QHeaderView::section {
+    background-color: #1E293B;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+}
+
+QFrame#sidebar{
+    background-color:#1E293B;
+}
+
+QFrame{
+    background-color: #F8FAFC;
+}/* =========================
+   SIDEBAR
+========================= */
+
+#sidebar {
+    background-color: #0F172A;
+    border: none;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+#lbl_logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+/* =========================
+   BOTONES SIDEBAR
+========================= */
+
+#sidebar QPushButton {
+
+    background-color: transparent;
+
+    color: #CBD5E1;
+
+    border: none;
+
+    border-radius: 10px;
+
+    text-align: left;
+
+    padding: 14px 18px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+
+#sidebar QPushButton:hover {
+
+    background-color: #1E293B;
+
+    color: white;
+}
+
+
+#sidebar QPushButton:checked {
+
+    background-color: #2563EB;
+
+    color: white;
+}
+
+
+/* =========================
+   USUARIO
+========================= */
+
+#lbl_usuario {
+
+    color: #94A3B8;
+
+    padding: 15px;
+
+    font-weight: bold;
+}

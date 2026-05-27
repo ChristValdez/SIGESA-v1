@@ -1,0 +1,78 @@
+/* =========================================
+   ESTILOS GENERALES (Fondo y Texto)
+========================================= */
+QWidget {
+    background-color: #F4F6F9; /* Gris muy suave para no cansar la vista */
+    color: #2C3E50;            /* Texto oscuro azulado, más elegante que el negro puro */
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* =========================================
+   CAJAS DE TEXTO Y SELECTORES
+========================================= */
+QLineEdit, QComboBox, QDateEdit, QSpinBox, QTextEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #BDC3C7;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+QLineEdit {
+    padding-right: 35px;
+}
+QLineEdit:focus, QComboBox:focus, QDateEdit:focus, QTextEdit:focus {
+    border: 2px solid #005C9E; /* Azul claro al hacer clic para escribir */
+}
+
+/* =========================================
+   BOTONES PRINCIPALES (Azul UNAB)
+========================================= */
+QPushButton {
+    background-color: #002D62; /* Azul marino institucional */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005C9E; /* Se aclara al pasar el mouse */
+}
+
+QPushButton:pressed {
+    background-color: #001A3D; /* Se oscurece al hacer clic */
+}
+
+/* Botones de Alerta o Cancelar (Rojo suave) */
+QPushButton#btn_salir, QPushButton#btn_cancelar {
+    background-color: #E74C3C;
+}
+QPushButton#btn_salir:hover, QPushButton#btn_cancelar:hover {
+    background-color: #C0392B;
+}
+
+/* =========================================
+   TABLAS (DataGrids)
+========================================= */
+QTableWidget, QTableView {
+    background-color: #FFFFFF;
+    border: 1px solid #D5D8DC;
+    gridline-color: #EAEDED;
+    selection-background-color: #D6EAF8; /* Fondo celeste suave al seleccionar fila */
+    selection-color: #002D62;            /* Letra azul marino al seleccionar */
+}
+
+QHeaderView::section {
+    background-color: #002D62; /* Encabezado de tabla en Azul UNAB */
+    color: white;
+    padding: 6px;
+    border: 1px solid #001A3D;
+    font-weight: bold;
+}
+
+#sidebar {
+    background-color: #0F172A;
+    border: none;
+}

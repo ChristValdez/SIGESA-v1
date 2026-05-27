@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/chart-column-big.svg</file>
+        <file>icons/log-out.svg</file>
+        <file>icons/settings.svg</file>
+        <file>icons/user-round.svg</file>
+        <file>icons/users.svg</file>
+        <file>icons/eye.svg</file>
+        <file>icons/eye-off.svg</file>
+    </qresource>
+</RCC>
